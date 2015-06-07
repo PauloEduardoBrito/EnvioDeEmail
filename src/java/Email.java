@@ -24,7 +24,7 @@ public class Email {
    //Adicione os destinatários
    email.addTo("testesalineedu@gmail.com", "Aline");
    //Configure o seu email do qual enviará
-   email.setFrom("p.edubrito@gmail.com", "Paulo");
+   email.setFrom("testeslineedu@gamilcom", "Aline");
    //Adicione um assunto
    email.setSubject("Test message teste de email para projeto");
    //Adicione a mensagem do email
@@ -32,7 +32,7 @@ public class Email {
    //Para autenticar no servidor é necessário chamar os dois métodos abaixo
    System.out.println("autenticando...");
    email.setSSL(true);
-   email.setAuthentication("p.edubrito@gmail.com", "brvant,Mogi");
+   email.setAuthentication("testesalineedu@gmail.com", "82748542");
    System.out.println("enviando...");
    email.send();
    System.out.println("Email enviado!");
